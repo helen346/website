@@ -1,4 +1,4 @@
-# Imagination PR — website
+# Imagination — website
 
 The public site for [imaginationpr.co.uk](https://imaginationpr.co.uk): a static site with no database, no plugins and nothing to update.
 
@@ -37,12 +37,11 @@ Placeholders are shown wherever a photograph is expected. Drop files into `asset
 
 ## Logo
 
-The mark is IMAGINATION in condensed Didone capitals with a single hand-drawn dot above the first I, and "PR" beneath. Files in `assets/logo/`:
+The mark is IMAGINATION in extra-condensed Didone capitals, nothing else. Files in `assets/logo/`:
 
-- `wordmark.svg` / `wordmark-light.svg` — primary mark on light / dark backgrounds
-- `stacked.svg` / `stacked-light.svg` — formal lockup with "Public Relations · London"
-- `monogram.svg` / `monogram-light.svg` — I P monogram
-- `mark-i.svg` — the I alone
-- `favicon.svg` — the I on a damson disc
+- `wordmark.svg` / `wordmark-light.svg` / `wordmark-burgundy.svg` — the mark in ink, in porcelain for dark backgrounds, and in burgundy
+- `stacked.svg` / `stacked-light.svg` — formal lockup with a hand-drawn rule and "Public Relations · London"
+- `mark-i.svg` / `mark-i-light.svg` — the I alone, for small spaces
+- `favicon.svg` — the I on a burgundy disc
 
-All are outlines, so they need no fonts installed. Colours: ink `#171520`, damson `#7A2E5A`, porcelain `#F5F3EF`.
+All are outlines, so they need no fonts installed. Colours: ink `#171520`, burgundy `#6B1D2E`, porcelain `#F5F3EF`.
