@@ -1,0 +1,38 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Old WordPress URLs. Media attachment pages were being indexed as content; send them somewhere useful.
+[[redirects]]
+  from = "/imagination-pr/*"
+  to = "/clients/"
+  status = 301
+
+[[redirects]]
+  from = "/global-creative-director-color-wow-chris-appleton-comes-london/"
+  to = "/clients/"
+  status = 301
+
+[[redirects]]
+  from = "/category/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/tag/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/feed/"
+  to = "/"
+  status = 301

@@ -1,0 +1,72 @@
+---
+title: Contact
+description: Get in touch with Imagination PR. Email helen@imaginationpr.co.uk, call +44 (0)7912 206 176, or visit us at 55 Wells Street, London W1T 3PT.
+path: /contact/
+---
+<section class="page-intro wrap">
+  <p class="eyebrow eyebrow--accent">Contact</p>
+  <h1>Let's talk about your brand.</h1>
+  <p class="lede">Email Helen directly, call, or send a few lines with the form. We reply to everyone, usually the same day.</p>
+</section>
+
+<section class="section--tight wrap" style="padding-bottom:var(--section)">
+  <div class="contact-grid">
+    <div class="contact-details">
+      <div>
+        <h2>Email</h2>
+        <p><a href="mailto:helen@imaginationpr.co.uk">helen@imaginationpr.co.uk</a></p>
+      </div>
+      <div>
+        <h2>Phone</h2>
+        <p><a href="tel:+447912206176">+44 (0)7912 206 176</a></p>
+      </div>
+      <div>
+        <h2>Studio</h2>
+        <address>1st Floor, 55 Wells Street<br>London W1T 3PT</address>
+        <p class="small" style="font-family:var(--sans);font-size:14px;margin-top:8px"><a href="https://maps.google.com/?q=55+Wells+Street,+London+W1T+3PT" rel="noopener">Open in Google Maps</a></p>
+      </div>
+      <div>
+        <h2>Follow</h2>
+        <p style="font-size:20px"><a href="https://uk.linkedin.com/company/imagination-pr" rel="noopener">LinkedIn</a> · <a href="https://x.com/Imagination_PR" rel="noopener">X</a></p>
+      </div>
+    </div>
+
+    <form class="form" name="contact" method="POST" action="/contact/thanks/" data-netlify="true" netlify-honeypot="company-website">
+      <input type="hidden" name="form-name" value="contact">
+      <p class="hidden-field" aria-hidden="true"><label>Leave this empty <input name="company-website" tabindex="-1" autocomplete="off"></label></p>
+      <div class="form-row">
+        <div class="field">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="field">
+          <label for="brand">Brand</label>
+          <input id="brand" name="brand" type="text" autocomplete="organization">
+        </div>
+        <div class="field">
+          <label for="interest">Interested in</label>
+          <select id="interest" name="interest">
+            <option>Press &amp; editorial</option>
+            <option>Influencer &amp; VIP</option>
+            <option>Events &amp; creative</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label for="message">Tell us a little about the brand</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <div class="btn-row">
+        <button class="btn" type="submit">Send message</button>
+        <span class="form-note">Or email <a href="mailto:helen@imaginationpr.co.uk">helen@imaginationpr.co.uk</a></span>
+      </div>
+    </form>
+  </div>
+</section>
