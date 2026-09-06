@@ -9,7 +9,7 @@ Each slot is currently a labelled placeholder on the site.
 | founder.jpg | Home founder note and About | portrait 4:5 | 1200 × 1500 |
 | about-1.jpg | About, wide band under the intro (Nicola Clarke launch dinner) | wide 16:7 | 2400 × 1050 |
 | office.jpg | About, Wells Street | landscape 3:2 | 1800 × 1200 |
-| event-1.jpg | Services, events | landscape 3:2 | 1800 × 1200 |
+| kopari.jpg | Services, under Our network (Kopari Sun Veil compact) | landscape 3:2 | 1800 × 1200 |
 | lano.jpg | Services, under Our network (Lano Jelly Balms lifestyle shot) | landscape 3:2 | 1800 × 1200 |
 | team-1.jpg, team-2.jpg | About, team | portrait 4:5 | 1200 × 1500 |
 
