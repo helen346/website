@@ -48,7 +48,7 @@ def svg(parts,w,top,bottom,pad=0.0,extra_w=0):
 def stacked(face,sans,size=100,tracking=0.03,ink=INK,acc=ACC):
     parts,w,top,_=wordmark(face,sans,size,tracking,ink,acc,pr=False)
     rw=w*0.82; parts.append(f'<path fill="none" stroke="{acc}" stroke-width="{fmt(size*0.014)}" stroke-linecap="round" transform="translate({fmt(w/2-rw/2)},{fmt(size*0.24)}) scale({fmt(rw/260)},1)" d="{RULE}"/>')
-    td,tw,_=sans.run('PUBLIC RELATIONS · LONDON',size*0.155,0.30)
+    td,tw,_=sans.run('COMMUNICATIONS · LONDON',size*0.155,0.30)
     parts.append(f'<path fill="{ink}" opacity=".8" transform="translate({fmt(w/2-tw/2)},{fmt(size*0.50)})" d="{td}"/>')
     return parts,w,top,size*0.55
 

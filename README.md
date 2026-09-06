@@ -40,7 +40,7 @@ Placeholders are shown wherever a photograph is expected. Drop files into `asset
 The mark is IMAGINATION in extra-condensed Didone capitals, nothing else. Files in `assets/logo/`:
 
 - `wordmark.svg` / `wordmark-light.svg` / `wordmark-burgundy.svg` — the mark in ink, in porcelain for dark backgrounds, and in burgundy
-- `stacked.svg` / `stacked-light.svg` — formal lockup with a hand-drawn rule and "Public Relations · London"
+- `stacked.svg` / `stacked-light.svg` — formal lockup with a hand-drawn rule and "Communications · London"
 - `mark-i.svg` / `mark-i-light.svg` — the I alone, for small spaces
 - `favicon.svg` — the I on a burgundy disc
 
