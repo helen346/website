@@ -7,6 +7,7 @@ Each slot is currently a labelled placeholder on the site.
 |---|---|---|---|
 | hero.jpg | Home, to the right of the headline | portrait 4:5 | 1600 × 2000 |
 | founder.jpg | Home founder note and About | portrait 4:5 | 1200 × 1500 |
+| about-1.jpg | About, wide band under the intro (Nicola Clarke launch dinner) | wide 16:7 | 2400 × 1050 |
 | office.jpg | About, Wells Street | landscape 3:2 | 1800 × 1200 |
 | event-1.jpg | Services, events | landscape 3:2 | 1800 × 1200 |
 | mailer-1.jpg | Services, creative | square | 1400 × 1400 |
