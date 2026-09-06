@@ -10,7 +10,7 @@ Each slot is currently a labelled placeholder on the site.
 | about-1.jpg | About, wide band under the intro (Nicola Clarke launch dinner) | wide 16:7 | 2400 × 1050 |
 | office.jpg | About, Wells Street | landscape 3:2 | 1800 × 1200 |
 | event-1.jpg | Services, events | landscape 3:2 | 1800 × 1200 |
-| mailer-1.jpg | Services, creative | square | 1400 × 1400 |
+| lano.jpg | Services, under Our network (Lano Jelly Balms lifestyle shot) | landscape 3:2 | 1800 × 1200 |
 | team-1.jpg, team-2.jpg | About, team | portrait 4:5 | 1200 × 1500 |
 
 JPEG at quality 80 is ideal. Keep files under 400 KB where possible.
