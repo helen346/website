@@ -315,8 +315,18 @@ h1 em, h2 em, h3 em, .quote em, .signature em { font-style: italic; font-weight:
 @media (max-width: 800px) { .case-cols { grid-template-columns: 1fr; } }
 
 /* ---------- Services grid ---------- */
-.services-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: clamp(24px, 3vw, 48px); border-top: 1px solid var(--rule); }
-.services-grid > div { padding: clamp(28px, 3vw, 40px) 0 clamp(32px, 3.5vw, 48px); border-bottom: 1px solid var(--rule); display: flex; flex-direction: column; }
+.services-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+.services-grid > div { background: var(--ground); padding: clamp(28px, 3vw, 40px) clamp(22px, 2.6vw, 36px) clamp(32px, 3.5vw, 48px); display: flex; flex-direction: column; transition: background .25s; }
+.services-grid > div:hover { background: var(--surface); }
 .services-grid h3 { margin-bottom: 14px; min-height: 2.4em; display: flex; align-items: flex-end; }
 .services-grid p { color: var(--ink-2); font-size: 16px; max-width: 38ch; }
 @media (max-width: 800px) { .services-grid { grid-template-columns: 1fr; } .services-grid h3 { min-height: 0; } }
+
+/* ---------- Pillars as boxes ---------- */
+.pillars { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); counter-reset: pillar; }
+.pillars li { border-bottom: 0; background: var(--ground); counter-increment: pillar; transition: background .25s; }
+.pillars li:hover { background: var(--surface); }
+.pillars a { display: grid; grid-template-columns: 1fr; gap: 14px; align-items: start; padding: clamp(28px, 3vw, 40px) clamp(22px, 2.6vw, 36px) clamp(32px, 3.5vw, 48px); min-height: 220px; }
+.pillars a::before { padding-top: 0; }
+.pillar-line { padding-top: 0; }
+@media (max-width: 760px) { .pillars { grid-template-columns: 1fr; } .pillars a { grid-template-columns: 1fr; min-height: 0; } .pillar-line { grid-column: auto; } }
